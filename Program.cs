@@ -1,19 +1,16 @@
 ﻿using System;
 internal class Program
 {
-    static void fordonmet(List<string> fordonwri){
-        for (int i = 0; i < fordonwri.Count; i++)
-        {
-            Console.WriteLine(fordonwri[i]);
-        }
-    }
+    
     private static void Main(string[] args)
     {
-       Fordon f = new Fordon();
-       f.setTill("Ford");
-       f.setMod("Mustang");
-       f.setArs(2022);
-       List<string> fordonli = new List<string>(){f.getTill(), f.getMod(), f.getArs().ToString()};
-       fordonmet(fordonli);
+        List<Fordon> fordonlist = new List<Fordon>();
+        fordonlist.Add(new Fordon("Ford", "Mustang", 2022));
+        fordonlist.Add(new Fordon("Honda", "Civic", 2006));
+        fordonlist.Add(new Fordon("Toyota", "Camry", 2012));
+        foreach (Fordon element in fordonlist)
+        {
+            Console.WriteLine(element.Tillverkare +", "+ element.Modell+", "+ element.Årsmodell+".");
+        }
     }
 }

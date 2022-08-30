@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Documents\\BLN\\Klasser\\Klasser.csproj": {}
+    "C:\\Users\\Admin\\Documents\\GitHub\\Klasser-repeition-uppgift\\Klasser.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Documents\\BLN\\Klasser\\Klasser.csproj": {
+    "C:\\Users\\Admin\\Documents\\GitHub\\Klasser-repeition-uppgift\\Klasser.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Documents\\BLN\\Klasser\\Klasser.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\Klasser-repeition-uppgift\\Klasser.csproj",
         "projectName": "Klasser",
-        "projectPath": "C:\\Users\\Admin\\Documents\\BLN\\Klasser\\Klasser.csproj",
+        "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\Klasser-repeition-uppgift\\Klasser.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Documents\\BLN\\Klasser\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\Klasser-repeition-uppgift\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
